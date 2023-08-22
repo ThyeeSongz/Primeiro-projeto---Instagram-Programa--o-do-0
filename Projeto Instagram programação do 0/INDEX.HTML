@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>projeto instagram</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+
+<body>
+
+    <div class="imagens">
+
+        <img src="imagens/celular.png" class="img-cell">
+        <img src="imagens/insta1.png" class="img-01">
+        <img src="imagens/insta2.png" class="img-01 img2">
+
+    </div>
+
+
+    <div class="container">
+        <img src="imagens/insta-logo.png" class="img-logo">
+
+        <input placeholder="Telefone,nome de usuário ou email" type="text">
+        <input placeholder="Senha" type="password">
+
+        <button>Entrar</button>
+
+        <a class="face-book">Entrar com o Facebook </a>
+        <a class="esq-senha">Esqueceu a senha ? </a>
+
+
+    </div>
+
+</body>
+
+<script>
+    let imagem = document.querySelector(".img2")
+
+    setInterval(() => {
+
+        if (imagem.style.opacity == 0) {
+            imagem.style.opacity = 1
+
+        } else {
+            imagem.style.opacity = 0
+        }
+
+
+    }, 3000)
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+</html>
